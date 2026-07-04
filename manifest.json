@@ -1,15 +1,26 @@
 {
-  "name": "BEBIKO Pregnancy App",
+  "name": "BEBIKO Zwangerschapsapp",
   "short_name": "BEBIKO",
-  "start_url": "/",
+  "description": "Zwangerschapsapp met weekinformatie, groei, symptomen, checklist en profiel.",
+  "start_url": "/Bebiko-/",
+  "scope": "/Bebiko-/",
   "display": "standalone",
   "background_color": "#F5F0EB",
   "theme_color": "#7D263D",
+  "orientation": "portrait",
+  "categories": ["health", "lifestyle"],
   "icons": [
     {
-      "src": "/favicon.svg",
-      "sizes": "64x64",
-      "type": "image/svg+xml"
+      "src": "/Bebiko-/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/Bebiko-/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
     }
   ]
 }

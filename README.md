@@ -1,35 +1,30 @@
-# BEBIKO Pregnancy App
+# BEBIKO Pro
 
-Een nette React/Vite app voor GitHub. De app heeft onboarding, profiel, taalwissel NL/EN, zwangerschapsweek-overzicht, weekdetailpagina, simpele lokale opslag en mobiele styling.
+React/Vite zwangerschapsapp klaar voor GitHub Pages en PWA packaging.
 
-## Installeren
+## Lokaal testen
 
 ```bash
 npm install
 npm run dev
 ```
 
-Open daarna de lokale Vite-link die in je terminal verschijnt.
-
-## Uploaden naar GitHub
-
-```bash
-git init
-git add .
-git commit -m "Initial BEBIKO app"
-git branch -M main
-git remote add origin https://github.com/JOUW-GEBRUIKERSNAAM/JOUW-REPO.git
-git push -u origin main
-```
-
-## Build maken
+## Build
 
 ```bash
 npm run build
 ```
 
-De productieversie komt in de map `dist`.
+## GitHub Pages
 
-## Belangrijk
+Deze versie is ingesteld voor repo `Bebiko-` met:
 
-Deze versie gebruikt een lokale Base44-vervanger in `src/api/base44Client.js`, zodat de app meteen werkt zonder externe backend. Later kun je dit bestand vervangen door je echte Base44/API-koppeling.
+```js
+base: '/Bebiko-/'
+```
+
+Settings → Pages → Source: GitHub Actions.
+
+## Android / Play Store
+
+Gebruik de live link `https://kans1994.github.io/Bebiko-/` in PWABuilder om Android package te maken. Voor Play Store gebruik je de `.aab`.
