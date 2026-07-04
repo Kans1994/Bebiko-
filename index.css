@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: light;
+    background: #F5F0EB;
+  }
+
+  * {
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  html {
+    min-height: 100%;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground font-body;
+    min-height: 100vh;
+    margin: 0;
+    padding-top: env(safe-area-inset-top);
+    padding-bottom: env(safe-area-inset-bottom);
+    overscroll-behavior: none;
+  }
+
+  button,
+  [role='tab'],
+  nav,
+  .select-none-ui {
+    user-select: none;
+    -webkit-user-select: none;
+  }
+
+  button:disabled {
+    cursor: not-allowed;
+  }
+}

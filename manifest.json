@@ -1,0 +1,15 @@
+{
+  "name": "BEBIKO Pregnancy App",
+  "short_name": "BEBIKO",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F5F0EB",
+  "theme_color": "#7D263D",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "64x64",
+      "type": "image/svg+xml"
+    }
+  ]
+}
